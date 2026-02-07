@@ -1,5 +1,6 @@
 import React from 'react';
 import './Rose2D.css';
+import roseImage from '/rose-colored.png?url';
 
 const Rose2D = () => {
     return (
@@ -7,7 +8,7 @@ const Rose2D = () => {
             <div className="rose-background"></div>
 
             <img
-                src="/rose-colored.png"
+                src={roseImage}
                 alt="Rose"
                 className="rose-image"
             />
